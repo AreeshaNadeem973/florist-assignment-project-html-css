@@ -8,5 +8,5 @@ This website was created as part of a **group assignment** for our web developme
 
 ## 🔗 Project Links
 
-- 🌐 **Live Preview**: [https://florist-assignment-project.vercel.app/](https://florist-assignment-project.vercel.app/)  
+- 🌐 **Live Preview**:https://florist-assignment-project-html-css.vercel.app/index.html
 - 💻 **GitHub Repository**: https://github.com/AreeshaNadeem973/florist_website
