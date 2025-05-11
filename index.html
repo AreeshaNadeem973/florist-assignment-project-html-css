@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Florist Website</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <!-- Header icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- footer icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- footer icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="navbar">
+      <div class="logo">Florist<span class="flower">✿</span></div>
+
+      <!-- Burger Menu (Mobile toggle) -->
+      <input type="checkbox" id="toggle-menu" />
+      <label for="toggle-menu" class="burger">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <!-- Navigation Menu -->
+      <nav class="menu">
+        <a href="index.html" class="active">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="shop.html">SHOP</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+
+      <!-- Icons Section: -->
+      <div class="icons">
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Fresh Blooms to Brighten Your Day</h1>
+          <p>
+            Welcome to our floral wonderland, where beauty blossoms and stories
+            unfold. Our curated collection of exquisite blooms.
+          </p>
+          <button class="hero-button">
+           <a href="shop.html" style="color: inherit; text-decoration: none;">Purchase Now</a>
+          </button>
+
+        </div>
+        <div class="hero-image">
+          <img src="assets/images/hero-image.png" alt="Flower Bouquet" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <div class="features">
+      <div class="feature-item">
+        <div class="image-text">
+          <img src="assets/images/benefit-1.png.webp" alt="Freshness" />
+          <h3>100% Freshness</h3>
+        </div>
+        <p>Most people are unaware of the less common flower</p>
+      </div>
+      <div class="feature-item">
+        <div class="image-text">
+          <img src="assets/images/benefit-2.png.webp" alt="Made by artist" />
+          <h3>Made by artist</h3>
+        </div>
+        <p>Most people are unaware of the less common flower</p>
+      </div>
+      <div class="feature-item">
+        <div class="image-text">
+          <img src="assets/images/benefit-3.png.webp" alt="Own courier" />
+          <h3>Own courier</h3>
+        </div>
+        <p>Most people are unaware of the less common flower</p>
+      </div>
+      <div class="feature-item">
+        <div class="image-text">
+          <img src="assets/images/benefit-4.png.webp" alt="100% Freshness" />
+          <h3>100% Freshness</h3>
+        </div>
+        <p>Most people are unaware of the less common flower</p>
+      </div>
+    </div>
+
+    <!-- Plant Categories Section -->
+    <div class="plant-grid">
+      <div class="plant-card">
+        <img src="assets/images/categories-1.jpg" alt="Fresh Flower" />
+        <div class="info">
+          <h4>Fresh Flower</h4>
+          <span>(25 items)</span>
+        </div>
+      </div>
+      <div class="plant-card">
+        <img src="assets/images/categories-2.jpg" alt="Succulent Plants" />
+        <div class="info">
+          <h4>Succulent Plants</h4>
+          <span>(162 items)</span>
+        </div>
+      </div>
+      <div class="plant-card">
+        <img src="assets/images/categories-3.jpg" alt="Cactus Plants" />
+        <div class="info">
+          <h4>Cactus Plants</h4>
+          <span>(58 items)</span>
+        </div>
+      </div>
+      <div class="plant-card">
+        <img src="assets/images/categories-4.jpg" alt="Funiture Tree" />
+        <div class="info">
+          <h4>Funiture Tree</h4>
+          <span>(25 items)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us Section -->
+    <section class="container">
+      <div class="left-section">
+        <div class="left-content">
+          <p class="tag">ABOUT US</p>
+          <h1>We provide all kinds of fresh flower services</h1>
+        </div>
+        <div class="video-container">
+          <div class="image-wrapper">
+            <img src="assets/images/sunflower.jpeg" alt="Sunflower in field" />
+            <div class="play-button">&#9658;</div>
+          </div>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="about-card">
+          <p class="description">
+            For Heather Henson, of Boreal Blooms in Cold Lake, Alberta, Canada,
+            growing flowers that can be dried and incorporated into late fall
+            and winter floral arrangements has been a game-changer. During her
+            growing season, this farmer-florist relies on a vivid palette of
+            annuals, perennials and ornamental grasses to supply her studio.
+          </p>
+        </div>
+        <div class="insights-card">
+          <p class="card-tag">SLOW FLOWERS' FLORAL INSIGHTS</p>
+          <h2>Dried flowers are having a renaissance</h2>
+          <p class="card-text">
+            This awareness has been stimulated by sustainable sourcing practices
+            and the desire on the part of North American flower growers to
+            "extend the season" beyond the last frost.
+          </p>
+          <br />
+          <a href="contact.html">
+            <button class="contact-btn">CONTACT US</button>
+          </a>
+          </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section>
+      <div class="products-container">
+        <header class="products-header">
+          <p class="products-tag">Our flower</p>
+          <h1 class="products-title">New Arrivals</h1>
+          <div class="filter-tabs">
+            <a href="#" class="active">All</a>
+            <a href="#">Bouquet</a>
+            <a href="#">Flower box</a>
+            <a href="#">Flower shelf</a>
+            <a href="#">Basket of flower</a>
+            <a href="#">Gift combos</a>
+          </div>
+        </header>
+
+        <div class="products-grid">
+          <!-- Product Cards -->
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="assets/images/plant-1.jpeg"
+                alt="Cactus in orange pot"
+              />
+              <span class="badge new">NEW</span>
+              <div class="hover-icons">
+                <span class="icon"><i class="fas fa-heart"></i></span>
+                <span class="icon"><i class="fas fa-search"></i></span>
+                <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Sunshine Bouquet</p>
+              <p class="price">$30.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-2.jpeg" alt="Pink flower stem" />
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Lush Blossom</p>
+              <p class="price">$28.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-3.jpeg" alt="Hanging plant" />
+              <span class="badge sale">SALE</span>
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Vibrant Garden</p>
+              <p class="price">$25.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="assets/images/plant-4.jpeg"
+                alt="Pink flowers in vase"
+              />
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Blooming Beauty</p>
+              <p class="price">$35.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="assets/images/plant-5.jpeg"
+                alt="Plant sprout in bottle"
+              />
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Serene Petals</p>
+              <p class="price">$27.50</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-6.jpeg" alt="Eucalyptus in vase" />
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Eternal Elegance</p>
+              <p class="price">$32.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-7.jpeg" alt="Red flowers" />
+              <span class="badge out-of-stock">OUT OF STOCK</span>
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Crimson Delight</p>
+              <p class="price">$29.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-8.jpeg" alt="Aloe plant" />
+              <span class="badge new">NEW</span>
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Aloe Bloom</p>
+              <p class="price">$27.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-9.jpeg" alt="Hyacinth bulb" />
+              <span class="badge new">NEW</span>
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Sweet Hyacinth</p>
+              <p class="price">$25.50</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-10.jpeg" alt="Green hydrangea" />
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Green Elegance</p>
+              <p class="price">$30.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-11.jpeg" alt="Green hydrangea" />
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Floral Fantasy</p>
+              <p class="price">$32.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="assets/images/plant-12.jpeg" alt="Purple Lilies" />
+            </div>
+            <div class="hover-icons">
+              <span class="icon"><i class="fas fa-heart"></i></span>
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+            <div class="product-info">
+              <p class="store-name">Purple Lilies</p>
+              <p class="price">$33.00</p>
+            </div>
+            <div class="add-to-cart">Add to Cart</div>
+          </div>
+        </div>
+
+        <div class="view-all">
+          <a href="shop.html">VIEW ALL PRODUCTS</a>
+        </div>
+      </div>
+    </section>
+
+   <!-- New Banner Section Added at the End -->
+<div class="hero-container">
+  <div class="hero-content">
+    <div class="text-content">
+      <h2 class="subtitle">CUSTOM FLOWER</h2>
+      <h1 class="main-title">
+        Let our flowers make your party more perfect.
+      </h1>
+      <div class="button-group">
+        <button class="btn order-btn">ORDER NOW</button>
+        <a href="contact.html">
+          <button class="btn contact-btn">CONTACT US</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+        <!-- Latest Posts Section -->
+        <section class="latest-posts-section">
+          <div class="latest-posts-container">
+           <div class="section-title">
+               <span>LATEST POSTS</span>
+               <h2>Florist tricks</h2>
+           </div>
+           <div class="latest-button">
+               <button href="#">View all posts</button>
+           </div>
+          </div>
+          
+           <!-- categories of latest posts -->
+       <div class="container-latest-blogs">
+            <!-- First -->
+           <div class="blog-box">
+               <div class="blog-image">
+                   <img src="assets/images/latest-image-1.png" alt="">
+                   <span class="label">Trend News</span>
+               </div>       
+               <h2 class="heading">
+                   8 Romantic Gifts to Celebrate Your Wedding Anniversary
+               </h2>
+               <p class="content">
+                   Flowers have a language all their own. In Victorian times, receiving a…
+               </p>
+               <span class="date" > MAY 22, 2020</span>
+           </div>
+          
+          <!-- second -->
+           <div class="blog-box">
+               <div class="blog-image">
+                   <img src="assets/images/latest-image-2.png" alt="">
+                   <span class="label">Tips and Ideas</span>
+               </div>
+               <h2 class="heading">
+                   Red Rose - Flower of love of Greek Mythology
+               </h2>
+               <p class="content">
+                   Flowers have a language all their own. In Victorian times, receiving a…
+               </p>
+               <span class="date"> MAY 22, 2020</span>
+           </div>
+   
+           <!-- Third -->
+            <div class="blog-box">
+               <div class="blog-image">
+                   <img src="assets/images/latest-image-3.png" alt="">
+                   <span class="label">Diy & Crafts</span>
+               </div>
+                <h2 class="heading">
+               Beautiful Mandalas Made From Flowers by Kathy Klein            
+                 </h2>
+           <p class="content">
+               Flowers have a language all their own. In Victorian times, receiving a…
+           </p>
+           <span class="date"> MAY 22, 2020</span>
+              </div>
+       </section>
+   
+     <!-- Quote Section -->
+<section class="quote-section">
+  <div class="quote-content">
+      <img src="assets/images/quote.png.webp" alt="Quote Mark">
+      <p class="quote">
+          "I just wanted to say thank you for making such gorgeous arrangements for our birthday 
+          celebration. I couldn't get over how perfect they were for the party. You did a fantastic 
+          job, and I appreciate it very much."
+      </p>
+      <h5 class="name">Alejandro Houston</h5>
+      <p class="role">Businessman</p>
+  </div>
+</section>
+
+
+
+    <!-- Gallery -->
+    <section class="gallery">
+      <div class="gallery-item">
+        <img src="assets/images/insta-1.jpg" alt="flower 1" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-2.jpg" alt="flower 2" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-3.jpg" alt="flower 3" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-4.jpg" alt="flower 4" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-5.jpg" alt="flower 5" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="assets/images/footer-logo.png" alt="Logo" />
+        </div>
+
+        <div class="footer-desc">
+          The floristry business has a significant market in the corporate and
+          social event world, as flowers.
+        </div>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Footer Middle Section -->
+      <div class="footer-sections">
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Account</h3>
+          <ul>
+            <li><a href="#">My Cart</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Login/Register</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section newsletter">
+          <h3>Newsletter</h3>
+          <p>
+            Subscribe to our newsletter to get more free tips. No Spam, Promise.
+          </p>
+          <form>
+            <input type="email" placeholder="Your Email" />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+
+        <div class="footer-section footer-contact">
+          <h3>Get in Touch</h3>
+          <p>69 North Cleveland Street, Memphis, USA</p>
+          <p>(123) 8111 9210 - (012) 1111 6868</p>
+          <p>Florist@supportthem.com</p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        Copyright ©2025 | Made with <span class="footer-heart">♥</span> by
+        <a href="https://colorlib.com/" class="footer-colorlib">Colorlib</a>
+      </div>
+    </footer>
+
+  </body>
+</html>

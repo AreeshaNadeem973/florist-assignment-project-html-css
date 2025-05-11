@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+}
+
+.logo {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.logo .flower {
+  color: #ff69b4;
+  font-size: 22px;
+}
+
+nav.menu {
+  display: flex;
+  gap: 20px;
+}
+
+nav.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+nav.menu a:hover {
+  color: #ff69b4;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.icons div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icons div span {
+  margin-left: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+/* Highlight cart price */
+.icons .cart span.price {
+  color: #ff69b4;
+}
+
+/* Hover effect for icons */
+.icons div:hover i,
+.icons div:hover span {
+  color: #ff69b4;
+}
+
+/* Hide checkbox */
+#toggle-menu {
+  display: none;
+}
+
+/* Burger default hide for desktop */
+.burger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  nav.menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 10;
+  }
+
+  /* Toggle menu show */
+  #toggle-menu:checked + .burger + nav.menu {
+    display: flex;
+  }
+
+  .icons {
+    display: none;
+  }
+}
