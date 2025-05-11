@@ -9,4 +9,4 @@ This website was created as part of a **group assignment** for our web developme
 ## 🔗 Project Links
 
 - 🌐 **Live Preview**: [https://florist-assignment-project.vercel.app/](https://florist-assignment-project.vercel.app/)  
-- 💻 **GitHub Repository**: [https://github.com/AreeshaNadeem973/florist-assignment-project-html-css](https://github.com/AreeshaNadeem973/florist-assignment-project-html-css)
+- 💻 **GitHub Repository**: https://github.com/AreeshaNadeem973/florist_website
