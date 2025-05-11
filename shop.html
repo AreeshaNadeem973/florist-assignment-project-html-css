@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Shop</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="navbar">
+      <div class="logo">Florist<span class="flower">✿</span></div>
+      <input type="checkbox" id="toggle-menu" />
+      <label for="toggle-menu" class="burger">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav class="menu">
+        <a href="index.html" class="active">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="shop.html">SHOP</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+      <div class="icons">
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Header Banner -->
+    <div class="banner">
+      <img
+        src="assets/images/breadcrumb-bg.jpg"
+        alt="Plant shop banner"
+        class="banner-image"
+      />
+      <div class="banner-content">
+        <div class="shop-title">
+          <h1>Shop</h1>
+          <div class="navigation">
+            <a href="#" class="home-link">HOME</a>
+            <span class="divider">|</span>
+            <a href="#" class="shop-link">SHOP</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section">
+      <div class="results-count">
+        <div class="filter-icon"><span></span></div>
+        <div class="results-text">Showing 1-9 of 14 results</div>
+      </div>
+      <div class="sort-dropdown">
+        <select>
+          <option>Sort by popularity</option>
+          <option>Sort by newest</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="container">
+      <div class="product-grid">
+        <!-- Example Product Card -->
+        <div class="product-card">
+          <img src="assets/images/plant-1.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Lunar Leaf</p>
+          <p class="price">$19.99</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-2.jpeg" alt="Starlight Bloom" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Starlight Bloom</p>
+          <p class="price">$22.50</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-3.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Velvet Vine</p>
+          <p class="price">$18.00</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-4.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Golden Fern</p>
+          <p class="price">$25.75</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-5.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Twilight Succulent</p>
+          <p class="price">$15.20</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-6.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Emerald Ivy</p>
+          <p class="price">$21.9</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-7.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Moonlit Orchid</p>
+          <p class="price">$28.40</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-8.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Crystal Cactus</p>
+          <p class="price">$17.80</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-9.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Silver Sage</p>
+          <p class="price">$23.10</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-10.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Blooming Basil</p>
+          <p class="price">$16.45</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-11.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Whispering Willow</p>
+          <p class="price">$24.00</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-12.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Radiant Rosemary</p>
+          <p class="price">$20.25</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-13.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Dreamy Daisy</p>
+          <p class="price">$14.90</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-14.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Mystic Mint</p>
+          <p class="price">$19.30</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images/plant-15.jpeg" alt="Lunar Leaf" />
+          <div class="hover-icons">
+            <span class="icon"><i class="fas fa-heart"></i></span>
+            <span class="icon"><i class="fas fa-search"></i></span>
+            <span class="icon"><i class="fas fa-shopping-bag"></i></span>
+          </div>
+          <p class="title">Rosy Glow</p>
+          <p class="price">$26.50</p>
+          <div class="add-to-cart">Add to Cart</div>
+        </div>
+      </div>
+      <button class="load-more-button">LOAD MORE PRODUCTS</button>
+    </div>
+
+    <!-- Gallery -->
+    <section class="gallery">
+      <div class="gallery-item">
+        <img src="assets/images/insta-1.jpg" alt="flower 1" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-2.jpg" alt="flower 2" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-3.jpg" alt="flower 3" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-4.jpg" alt="flower 4" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/images/insta-1.jpg" alt="flower 5" />
+        <div class="overlay">
+          <div class="overlay-content">
+            <i class="fab fa-instagram"></i>
+            <p>Follow us <a href="#">@florist</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
