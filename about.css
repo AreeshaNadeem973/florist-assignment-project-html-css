@@ -272,14 +272,18 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* team members-section */
+.section-title h2 {
+  font-size: 36px;
+  margin: 10px 0;
+  color: #222;
+}
 .team-members-section {
   padding: 60px 20px;
   background-color: #fff;
   font-family: "Segoe UI", sans-serif;
 }
 
-/* Header */
+/* Section Titles */
 .section-title span {
   color: hotpink;
   letter-spacing: 2px;
@@ -287,12 +291,14 @@ h2 {
   text-transform: uppercase;
   font-size: 14px;
 }
+
 .section-title h2 {
   font-size: 36px;
   margin: 10px 0;
   color: #222;
 }
-/* Button */
+
+/* Button Container - Right on large, Left on small */
 .latest-button {
   text-align: right;
   margin-top: -50px;
@@ -313,7 +319,7 @@ h2 {
   background-color: hotpink;
   color: #fff;
 }
-/* Team Container */
+/* team members container */
 .container-members {
   display: flex;
   flex-wrap: wrap;
@@ -374,7 +380,6 @@ h2 {
 .member-box-icons a:hover {
   color: #ff69b4;
 }
-
 
 
 /* Gallery Section */
@@ -547,24 +552,4 @@ h2 {
   .team-box{
     width: 500px;
   }
-}
-/* Tablet: 2 per row */
-@media (max-width: 992px) {
-  .team-box {
-    flex: 1 1 calc(50% - 30px);
-    max-width: calc(50% - 30px);
-  }
-}
-
-/* Mobile: 1 per row, left-aligned button */
-@media (max-width: 576px) {
-  .team-box {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
-  .latest-button {
-    text-align: left;
-    margin-top: 20px;
-}
 }
